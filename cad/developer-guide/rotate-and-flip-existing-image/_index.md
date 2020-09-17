@@ -33,17 +33,12 @@ With the following APIs you can rotate and flip existing image:
 ```java
 
 // First get Access Token
-
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 
@@ -51,15 +46,10 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 // cURL example to rotate and flip existing image
 
 curl -v "https://api.aspose.cloud/v1.1/cad/910609.dxf/rotateflip?format=pdf&method=Rotate180FlipNone" \
-
 -X GET \
-
 -H "Content-Type: application/json" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer U-VftF76H\_xD29pPgwRzmhi79jZVeYsyotpGQBX95QrzO7SUBMyVlLui\_0HjlC8vRgnNnAny2nywDWofm5n034boz5kBDGcjVR9q3llPKmjPwBFZ2Kh\_tJe4McJu-R\_aBcNNDDy7mBoDfgvlv8zdrr6XhyKpzy71SzXF51lGRN39KD2bJP4U2LYItW\_I18uezfMnt6-IA2CaV21XlO5OIrosD\_17isGzSuvcIoH8nXQ80tkKlbJz9o6Fq09si\_d0gFXi-\_qcoQrf\_H1ylKkvYMJvICY6rED5IUqQuFWEbTgUcWlzfElCEzZte2I1NlKOJDa-tGi8zhMxVY\_grkt2HMVbeyf58ALygfTZ7EGKvSO\_wSAwY9cm\_yFwEoKRXwFoUzllvRrBajU26H8SIzZ8w1KtcEYM10nNjehwirtw-dvi1RS\_" \
-
 -o 910609.pdf
 
 ```
@@ -91,17 +81,12 @@ PDF Document
 ```java
 
 // First get Access Token
-
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
 curl -v "https://api.aspose.cloud/oauth2/token" \
-
 -X POST \
-
 -d 'grant\_type=client\_credentials&client\_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client\_secret=53b8b19adffa41a3e87dbbd8858977ae' \
-
 -H "Content-Type: application/x-www-form-urlencoded" \
-
 -H "Accept: application/json"
 
 
@@ -109,17 +94,11 @@ curl -v "https://api.aspose.cloud/oauth2/token" \
 // cURL example to rotate and flip existing image and get it from response
 
 curl -v "https://api.aspose.cloud/v1.1/cad/rotateflip?format=pdf&method=Rotate180FlipNone" \
-
 -X POST \
-
 -T 910609.dxf \
-
 -H "Content-Type: multipart/form-data" \
-
 -H "Accept: multipart/form-data" \
-
 -H "Authorization: Bearer U-VftF76H\_xD29pPgwRzmhi79jZVeYsyotpGQBX95QrzO7SUBMyVlLui\_0HjlC8vRgnNnAny2nywDWofm5n034boz5kBDGcjVR9q3llPKmjPwBFZ2Kh\_tJe4McJu-R\_aBcNNDDy7mBoDfgvlv8zdrr6XhyKpzy71SzXF51lGRN39KD2bJP4U2LYItW\_I18uezfMnt6-IA2CaV21XlO5OIrosD\_17isGzSuvcIoH8nXQ80tkKlbJz9o6Fq09si\_d0gFXi-\_qcoQrf\_H1ylKkvYMJvICY6rED5IUqQuFWEbTgUcWlzfElCEzZte2I1NlKOJDa-tGi8zhMxVY\_grkt2HMVbeyf58ALygfTZ7EGKvSO\_wSAwY9cm\_yFwEoKRXwFoUzllvRrBajU26H8SIzZ8w1KtcEYM10nNjehwirtw-dvi1RS\_" \
-
 -o 910609.pdf
 
 ```
