@@ -17,9 +17,6 @@ This article explains how to convert CAD drawing/image to raster image format. Y
 ## **cURL Example**
 **Option 1: Export existing drawing to another format**
 
-**Input Document:**  
-
-**Output Document:**
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

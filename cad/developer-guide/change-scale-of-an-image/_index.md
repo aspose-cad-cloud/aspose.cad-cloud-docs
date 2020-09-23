@@ -15,9 +15,9 @@ This article explains how to change scale or resize an image. You can change eit
 ## **cURL Example**
 **Option 1: Change scale of an existing image**
 
-**Input Document:** [910609.dxf](attachments/2752530/3014657.dxf)
+**Input Document:** [910609.dxf](https://github.com/aspose-cad-cloud/aspose-cad-cloud-dotnet/blob/master/TestData/910609.dxf)
 
-**Output Document: [**910609.pdf](attachments/2752530/3014658.pdf)**
+
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 

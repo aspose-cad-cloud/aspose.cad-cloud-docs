@@ -22,10 +22,6 @@ With the following APIs you can rotate and flip existing image:
 ## **cURL Example**
 **Option 1: Rotate and flip an existing image**
 
-**Input Document:**  
-
-**Output Document:** 
-
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
 {{< tab tabNum="1" >}}

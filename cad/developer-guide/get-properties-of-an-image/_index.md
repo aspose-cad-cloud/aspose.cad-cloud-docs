@@ -12,9 +12,6 @@ This article explains how to get properties of an image. With following Aspose.C
 ## **Resource URI**
 [Swagger UI](https://apireference.aspose.cloud/cad/) lets you call Aspose.CAD REST APIs directly from the browser. The description of the APIs and their parameters are also given there.
 ## **cURL Example**
-**Input Document:**  
-
-**Output Document:**
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
