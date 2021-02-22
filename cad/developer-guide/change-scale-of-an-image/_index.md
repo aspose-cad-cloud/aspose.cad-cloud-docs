@@ -5,14 +5,14 @@ url: /change-scale-of-an-image/
 weight: 20
 ---
 
-# **Introduction**
+## **Introduction**
 This article explains how to change scale or resize an image. You can change either request using GET or POST methods by using the below APIs:
 
 - [GET /cad/{name}/resize](https://apireference.aspose.cloud/cad/#!/Resize/GetChangeImageScale)
 - [POST /cad/resize](https://apireference.aspose.cloud/cad/#!/Resize/PostChangeImageScale)
-## **Resource URI**
+### **Resource URI**
 [Swagger UI](https://apireference.aspose.cloud/cad/) lets you call Aspose.CAD REST APIs directly from the browser. The description of the APIs and their parameters are also given there.
-## **cURL Example**
+### **cURL Example**
 **Option 1: Change scale of an existing image**
 
 **Input Document:** [910609.dxf](https://github.com/aspose-cad-cloud/aspose-cad-cloud-dotnet/blob/master/TestData/910609.dxf)
@@ -109,9 +109,9 @@ PDF Document
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Checkout our [GitHub repository](https://github.com/aspose-cad-cloud) for a complete list of Aspose.CAD SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/cad/available-sdks/) article to learn how to add an SDK to your project.
-## **SDK Examples**
+### **SDK Examples**
 **Option 1: Change scale of an existing image**
 
 {{< tabs tabTotal="5" tabID="7" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Python" tabName5="Node.js" >}}

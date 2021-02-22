@@ -5,13 +5,13 @@ url: /get-properties-of-an-image/
 weight: 10
 ---
 
-# **Introduction**
+## **Introduction**
 This article explains how to get properties of an image. With following Aspose.CAD API you can get properties of an image:
 
 - [GET /cad/{name}/properties](https://apireference.aspose.cloud/cad/#!/Properties/GetImageProperties)
-## **Resource URI**
+### **Resource URI**
 [Swagger UI](https://apireference.aspose.cloud/cad/) lets you call Aspose.CAD REST APIs directly from the browser. The description of the APIs and their parameters are also given there.
-## **cURL Example**
+### **cURL Example**
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
 
@@ -73,9 +73,9 @@ curl -v "https://api.aspose.cloud/v1.1/cad/910609.dxf/properties" \
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Checkout our [GitHub repository](https://github.com/aspose-cad-cloud) for a complete list of Aspose.CAD SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/cad/available-sdks/) article to learn how to add an SDK to your project.
-## **SDK Examples**
+### **SDK Examples**
 {{< tabs tabTotal="5" tabID="4" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Python" tabName5="Node.js" >}}
 
 {{< tab tabNum="1" >}}

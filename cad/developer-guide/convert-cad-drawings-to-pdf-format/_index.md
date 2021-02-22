@@ -5,14 +5,14 @@ url: /convert-cad-drawings-to-pdf-format/
 weight: 40
 ---
 
-# **Introduction**
+## **Introduction**
 This article explains how to convert CAD drawing/image to another format. You can convert CAD Drawings to Portable Document Format (PDF). Aspose.CAD provides the following two APIs to perform the said task:
 
 1. [GET /cad/{name}/saveAs](https://apireference.aspose.cloud/cad/#!/SaveAs/GetImageSaveAs)
 1. [POST /cad/saveAs](https://apireference.aspose.cloud/cad/#!/SaveAs/PostImageSaveAs)
-## **Resource URI**
+### **Resource URI**
 [Aspose.CAD Cloud APIs Swagger UI](https://apireference.aspose.cloud/cad/) lets you call these APIs directly from the browser. The description of the APIs and their parameters are also given there.
-## **cURL Example**
+### **cURL Example**
 **Option 1: Export existing drawing to another format**
 
 
@@ -106,9 +106,9 @@ PDF Document
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Checkout our [GitHub repository](https://github.com/aspose-cad-cloud) for a complete list of Aspose.CAD SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/cad/available-sdks/) article to learn how to add an SDK to your project.
-## **SDK Examples**
+### **SDK Examples**
 **Option 1: Export existing drawing to PDF format**
 
 {{< tabs tabTotal="5" tabID="7" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Python" tabName5="Node.js" >}}

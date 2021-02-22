@@ -8,7 +8,7 @@ weight: 20
 ## **Supported File Formats**
 **Open, Save and Convert From DWG, DWF and DXF to Other File Formats**
 
-Aspose.CAD Cloud supports the popular [DWG](https://wiki.fileformat.com/CAD/DWG/), [DWF](https://wiki.fileformat.com/CAD/DWF/), [DXF](https://wiki.fileformat.com/CAD/DXF/), [PDF](https://wiki.fileformat.com/view/pdf/) and Raster images.
+Aspose.CAD Cloud supports the popular [DWG](https://docs.fileformat.com/cad/dwg/), [DWF](https://docs.fileformat.com/cad/dwf/), [DXF](https://docs.fileformat.com/cad/dxf/), [PDF](https://docs.fileformat.com/pdf/) and Raster images.
 ### **Support for DXF / DWG / DGN**
 - 3D Solids (Conic, Sphere, Torus, Cylinder, Box, Wedge)
 ### **Support for DXF / DWG**
