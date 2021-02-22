@@ -5,7 +5,7 @@ url: /rotate-and-flip-existing-image/
 weight: 30
 ---
 
-# **Introduction**
+## **Introduction**
 This article explains how to rotate and flip the existing image. Rotate and Flip **method** parameter values could be one of the following:
 
 - Rotate180FlipNone, Rotate180FlipX, Rotate180FlipXY, Rotate180FlipY,
@@ -17,9 +17,9 @@ With the following APIs you can rotate and flip existing image:
 
 - [GET /cad/{name}/rotateflip](https://apireference.aspose.cloud/cad/#!/RotateFlip/GetImageRotateFlip)
 - [POST /cad/rotateflip](https://apireference.aspose.cloud/cad/#!/RotateFlip/PostImageRotateFlip)
-## **Resource URI**
+### **Resource URI**
 [Swagger UI](https://apireference.aspose.cloud/cad/) lets you call Aspose.CAD REST APIs directly from the browser. The description of the APIs and their parameters are also given there.
-## **cURL Example**
+### **cURL Example**
 **Option 1: Rotate and flip an existing image**
 
 {{< tabs tabTotal="2" tabID="1" tabName1="Request" tabName2="Response" >}}
@@ -112,9 +112,9 @@ PDF Document
 {{< /tab >}}
 
 {{< /tabs >}}
-# **SDKs**
+## **SDKs**
 Using an SDK (API client) is the quickest way for a developer to speed up the development. An SDK takes care of a lot of low-level details of making requests and handling responses and lets you focus on writing code specific to your particular project. Checkout our [GitHub repository](https://github.com/aspose-cad-cloud) for a complete list of Aspose.CAD SDKs along with working examples, to get you started in no time. Please check [Available SDKs](/cad/available-sdks/) article to learn how to add an SDK to your project.
-## **SDK Examples**
+### **SDK Examples**
 **Option 1: Rotate and flip existing image**
 
 {{< tabs tabTotal="5" tabID="7" tabName1="C#" tabName2="PHP" tabName3="Ruby" tabName4="Python" tabName5="Node.js" >}}

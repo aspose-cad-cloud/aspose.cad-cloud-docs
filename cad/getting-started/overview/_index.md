@@ -27,6 +27,6 @@ The Aspose.CAD Cloud APIs are secured and requires authentication. There are tw
 1. OAuth 2.0
 1. URL Signing
 
-Please check [Authenticating API Requests](https://docs.aspose.cloud/display/storagecloud/Authenticating+API+Requests) article for more details.
+Please check [Authenticating API Requests](https://docs.aspose.cloud/storage/authenticating-api-requests/) article for more details.
 
 
