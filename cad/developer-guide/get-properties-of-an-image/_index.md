@@ -22,9 +22,9 @@ This article explains how to get properties of an image. With following Aspose.C
 // First get Access Token
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
-curl -v "https://api.aspose.cloud/oauth2/token" \
+curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant_type=client_credentials&client_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client_secret=53b8b19adffa41a3e87dbbd8858977ae' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -36,7 +36,7 @@ curl -v "https://api.aspose.cloud/v1.1/cad/910609.dxf/properties" \
 -X GET \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
--H "Authorization: Bearer U-VftF76H_xD29pPgwRzmhi79jZVeYsyotpGQBX95QrzO7SUBMyVlLui_0HjlC8vRgnNnAny2nywDWofm5n034boz5kBDGcjVR9q3llPKmjPwBFZ2Kh_tJe4McJu-R_aBcNNDDy7mBoDfgvlv8zdrr6XhyKpzy71SzXF51lGRN39KD2bJP4U2LYItW_I18uezfMnt6-IA2CaV21XlO5OIrosD_17isGzSuvcIoH8nXQ80tkKlbJz9o6Fq09si_d0gFXi-_qcoQrf_H1ylKkvYMJvICY6rED5IUqQuFWEbTgUcWlzfElCEzZte2I1NlKOJDa-tGi8zhMxVY_grkt2HMVbeyf58ALygfTZ7EGKvSO_wSAwY9cm_yFwEoKRXwFoUzllvRrBajU26H8SIzZ8w1KtcEYM10nNjehwirtw-dvi1RS_"
+-H "Authorization: Bearer <jwt token>"
 
 ```
 

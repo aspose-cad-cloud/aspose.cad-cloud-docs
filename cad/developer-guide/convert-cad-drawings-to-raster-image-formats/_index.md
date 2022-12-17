@@ -27,9 +27,9 @@ This article explains how to convert CAD drawing/image to raster image format. Y
 // First get Access Token
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
-curl -v "https://api.aspose.cloud/oauth2/token" \
+curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant_type=client_credentials&client_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client_secret=53b8b19adffa41a3e87dbbd8858977ae' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -41,7 +41,7 @@ curl -v "https://api.aspose.cloud/v1.1/cad/910609.dxf/saveAs?format=jpg" \
 -X GET \
 -H "Content-Type: application/json" \
 -H "Accept: multipart/form-data" \
--H "Authorization: Bearer xxxxx" \
+-H "Authorization: Bearer <jwt token>" \
 -o 910609.pdf
 
 ```
@@ -75,9 +75,9 @@ PDF Document
 // First get Access Token
 // Get App Key and App SID from https://dashboard.aspose.cloud/
 
-curl -v "https://api.aspose.cloud/oauth2/token" \
+curl -v "https://api.aspose.cloud/connect/token" \
 -X POST \
--d 'grant_type=client_credentials&client_id=0B17F60A-6D69-426B-9ABD-79F35A6E9F7B&client_secret=53b8b19adffa41a3e87dbbd8858977ae' \
+-d 'grant_type=client_credentials&client_id=xxxx&client_secret=xxxx' \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json"
 
@@ -90,7 +90,7 @@ curl -v "https://api.aspose.cloud/v1.1/cad/saveAs?format=jpeg" \
 -T 910609.dxf \
 -H "Content-Type: multipart/form-data" \
 -H "Accept: multipart/form-data" \
--H "Authorization: Bearer xxxx" \
+-H "Authorization: Bearer <jwt token>" \
 -o 910609.pdf
 
 ```
