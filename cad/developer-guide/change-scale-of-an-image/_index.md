@@ -38,7 +38,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 
 // cURL example to change scale of an existing image
 
-curl -v "https://api.aspose.cloud/v1.1/cad/910609.dxf/resize?format=pdf&newWidth=200&newHeight=150" \
+curl -v "https://api.aspose.cloud/v3.0/cad/910609.dxf/resize?outputFormat=pdf&newWidth=200&newHeight=150" \
 -X GET \
 -H "Content-Type: application/json" \
 -H "Accept: multipart/form-data" \
@@ -86,13 +86,12 @@ curl -v "https://api.aspose.cloud/connect/token" \
 
 // cURL example to change scale of an image from body
 
-curl -v "https://api.aspose.cloud/v1.1/cad/resize?format=pdf&newWidth=200&newHeight=150" \
+curl -v "https://api.aspose.cloud/v3.0/cad/resize?format=pdf&newWidth=200&newHeight=150" \
 -X POST \
--T 910609.dxf \
 -H "Content-Type: multipart/form-data" \
--H "Accept: multipart/form-data" \
+-H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
--o 910609.pdf
+-d {"drawingData":{}}
 
 ```
 
