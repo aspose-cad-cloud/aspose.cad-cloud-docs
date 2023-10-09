@@ -22,13 +22,21 @@ Aspose.CAD Cloud provides helper functions to work with files uploaded to Aspos
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client_secret=b125f13bf6b76ed81ee990142d841195" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" 
+-X POST 
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" 
+-H "Content-Type: application/x-www-form-urlencoded" 
+-H "Accept: application/json"
 
 ```
 
 ```java
 
-curl  -v -X GET "https://api.aspose.cloud/v3.0/cad/storage/file/presentation_images.dxf" -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjAwOTI3OTcsImV4cCI6MTU2MDE3OTE5NywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5Iiwic2NvcGUiOlsiYXBpLnBsYXRmb3JtIiwiYXBpLnByb2R1Y3RzIl19.rFS4KehYAg1yOVGmteeinIh-AFq7nVEmtUr_cDltIfk0iN0JJJ3o6TK1StpnItAAqlkb_QtF0WcY5D8NCjeyTVKL1oewdIshjjODoPEN1tmCsRXceHGYTG5f--B8sWrMuZtOqSzlbr-x3_Mat9Fy7xcNbS6nNNmBv7mo3suRDF4xdUZWdIY7bO6yBptc-qyhIFb0olNMxdeAZPsN8sPLW0XIbEGf8CaE16p9al_O5SjWLtEZT7APuvDesJwWYOSPtG6hCsXtHItphKDAcMULEnqJ-QW_QpzBxybTnQ1VNzundQWOYM_viYzU8hOlf6VTE4YQKyCmgz72Ena8KZx0VA" --ssl-no-revoke
+curl
+-X GET "https://api.aspose.cloud/v3.0/cad/storage/file/presentation_images.dxf" 
+-H "Content-Type: application/json" 
+-H "Authorization: Bearer <jwt token>" 
+-H "Accept: multipart/form-data"
 
 ```
 
@@ -50,13 +58,21 @@ curl  -v -X GET "https://api.aspose.cloud/v3.0/cad/storage/file/presentation_ima
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client_secret=b125f13bf6b76ed81ee990142d841195" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl -v "https://api.aspose.cloud/connect/token" 
+-X POST -d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" 
+-H "Content-Type: application/x-www-form-urlencoded" 
+-H "Accept: application/json"
 
 ```
 
 ```java
 
-curl  -v -X PUT "https://api.aspose.cloud/v3.0/cad/storage/file/presentation_images_1.dxf" -H "Content-Type:application/octet-stream" -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjAwOTI3OTcsImV4cCI6MTU2MDE3OTE5NywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5Iiwic2NvcGUiOlsiYXBpLnBsYXRmb3JtIiwiYXBpLnByb2R1Y3RzIl19.rFS4KehYAg1yOVGmteeinIh-AFq7nVEmtUr_cDltIfk0iN0JJJ3o6TK1StpnItAAqlkb_QtF0WcY5D8NCjeyTVKL1oewdIshjjODoPEN1tmCsRXceHGYTG5f--B8sWrMuZtOqSzlbr-x3_Mat9Fy7xcNbS6nNNmBv7mo3suRDF4xdUZWdIY7bO6yBptc-qyhIFb0olNMxdeAZPsN8sPLW0XIbEGf8CaE16p9al_O5SjWLtEZT7APuvDesJwWYOSPtG6hCsXtHItphKDAcMULEnqJ-QW_QpzBxybTnQ1VNzundQWOYM_viYzU8hOlf6VTE4YQKyCmgz72Ena8KZx0VA" --ssl-no-revoke --data-binary @destination.pptx
+curl
+-X PUT "https://api.aspose.cloud/v3.0/cad/storage/file/presentation_images_1.dxf" 
+-H "Content-Type:application/octet-stream" 
+-H "Authorization: Bearer <jwt token>" 
+-H "Content-Type: multipart/form-data"
+-d {"File":{}}
 
 ```
 
@@ -100,14 +116,22 @@ curl  -v -X PUT "https://api.aspose.cloud/v3.0/cad/storage/file/presentation_ima
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client_secret=b125f13bf6b76ed81ee990142d841195" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl 
+-v "https://api.aspose.cloud/connect/token" 
+-X POST 
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" 
+-H "Content-Type: application/x-www-form-urlencoded" 
+-H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -v -X PUT "https://api.aspose.cloud/v3.0/cad/storage/file/copy/input.dxf" -H "Content-Type:application/json" -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjAxMDY1MDcsImV4cCI6MTU2MDE5MjkwNywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5Iiwic2NvcGUiOlsiYXBpLnBsYXRmb3JtIiwiYXBpLnByb2R1Y3RzIl19.FeU2K-qTf4meenSv1IQZqUpSPQREk0MmYK5oMMRx2t_LqELHMRnBawHC8nJ5DzGKsK_xyZwPpIANRA8eWHPoPICMoZnDZtUbLagxvSbFMZPReV2Ip3sVTTSvQXA-UOaLC6BbWnyHWDAbAGPv92AFMu_A0wiEBVs68vx_ZOOhjhZkX1rKfJFbJjWr8tJC9HVkEGubfiqXAb6ejL2ISwWcvUr49napuPPVrejJkAbj27z1oGSjmzYvoUuN4tP8Tb2VwD6L4B_Q99EOAs0y4VownW1BE3Ku_rKUgGAOa7OKZKtzOgKrtWqSc9oQ9h0DuiIkmKhn5I_PczHwigZ-ytb3OQ" --ssl-no-revoke -d {}
-
+curl
+-X PUT "https://api.aspose.cloud/v3.0/cad/storage/file/copy/input.dxf?destPath=destinationPath" 
+-H "Content-Type:application/json" 
+-H "Authorization: Bearer <jwt token>" 
+-H "Accept: application/json"
 ```
 
 {{< /tab >}}
@@ -118,7 +142,7 @@ curl -v -X PUT "https://api.aspose.cloud/v3.0/cad/storage/file/copy/input.dxf" -
 
 |**API**|**Type**|**Description**|**Swagger Link**|
 | :- | :- | :- | :- |
-|/cad/storage/file/MOVE/{srcPath}|PUT|Move a file to a new location on Cloud Storage|[MoveFile](https://apireference.aspose.cloud/cad/#/File/MoveFile)|
+|/cad/storage/file/move/{srcPath}|PUT|Move a file to a new location on Cloud Storage|[MoveFile](https://apireference.aspose.cloud/cad/#/File/MoveFile)|
 #### **cURL Example**
 {{< tabs tabTotal="1" tabID="11" tabName1="Request" >}}
 
@@ -128,14 +152,22 @@ curl -v -X PUT "https://api.aspose.cloud/v3.0/cad/storage/file/copy/input.dxf" -
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client_secret=b125f13bf6b76ed81ee990142d841195" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl 
+-v "https://api.aspose.cloud/connect/token" 
+-X POST 
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" 
+-H "Content-Type: application/x-www-form-urlencoded" 
+-H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -v -X PUT "https://api.aspose.cloud/v3.0/cad/storage/file/move/input.dxf" -H "Content-Type:application/json" -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjAxMDY1MDcsImV4cCI6MTU2MDE5MjkwNywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5Iiwic2NvcGUiOlsiYXBpLnBsYXRmb3JtIiwiYXBpLnByb2R1Y3RzIl19.FeU2K-qTf4meenSv1IQZqUpSPQREk0MmYK5oMMRx2t_LqELHMRnBawHC8nJ5DzGKsK_xyZwPpIANRA8eWHPoPICMoZnDZtUbLagxvSbFMZPReV2Ip3sVTTSvQXA-UOaLC6BbWnyHWDAbAGPv92AFMu_A0wiEBVs68vx_ZOOhjhZkX1rKfJFbJjWr8tJC9HVkEGubfiqXAb6ejL2ISwWcvUr49napuPPVrejJkAbj27z1oGSjmzYvoUuN4tP8Tb2VwD6L4B_Q99EOAs0y4VownW1BE3Ku_rKUgGAOa7OKZKtzOgKrtWqSc9oQ9h0DuiIkmKhn5I_PczHwigZ-ytb3OQ" --ssl-no-revoke -d {}
-
+curl
+-X PUT "https://api.aspose.cloud/v3.0/cad/storage/file/move/input.dxf?destPath=destinationPath" 
+-H "Content-Type:application/json" 
+-H "Authorization: Bearer <jwt token>"
+-H "Accept: application/json"
 ```
 
 {{< /tab >}}
@@ -156,13 +188,21 @@ curl -v -X PUT "https://api.aspose.cloud/v3.0/cad/storage/file/move/input.dxf" -
 
 ```java
 
-curl -v "https://api.aspose.cloud/connect/token" -X POST -d "grant_type=client_credentials&client_id=78946fb4-3bd4-4d3e-b309-f9e2ff9ac6f9&client_secret=b125f13bf6b76ed81ee990142d841195" -H "Content-Type: application/x-www-form-urlencoded" -H "Accept: application/json"
+curl 
+-v "https://api.aspose.cloud/connect/token" 
+-X POST 
+-d "grant_type=client_credentials&client_id=xxxx&client_secret=xxxx" 
+-H "Content-Type: application/x-www-form-urlencoded" 
+-H "Accept: application/json"
 
 ```
 
 ```java
 
-curl -v -X DELETE "https://api.aspose.cloud/v3.0/cad/storage/file/sample.dxf" -H "Content-Type:application/json" -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1NjAxMDY1MDcsImV4cCI6MTU2MDE5MjkwNywiaXNzIjoiaHR0cHM6Ly9hcGkuYXNwb3NlLmNsb3VkIiwiYXVkIjpbImh0dHBzOi8vYXBpLmFzcG9zZS5jbG91ZC9yZXNvdXJjZXMiLCJhcGkucGxhdGZvcm0iLCJhcGkucHJvZHVjdHMiXSwiY2xpZW50X2lkIjoiNzg5NDZmYjQtM2JkNC00ZDNlLWIzMDktZjllMmZmOWFjNmY5Iiwic2NvcGUiOlsiYXBpLnBsYXRmb3JtIiwiYXBpLnByb2R1Y3RzIl19.FeU2K-qTf4meenSv1IQZqUpSPQREk0MmYK5oMMRx2t_LqELHMRnBawHC8nJ5DzGKsK_xyZwPpIANRA8eWHPoPICMoZnDZtUbLagxvSbFMZPReV2Ip3sVTTSvQXA-UOaLC6BbWnyHWDAbAGPv92AFMu_A0wiEBVs68vx_ZOOhjhZkX1rKfJFbJjWr8tJC9HVkEGubfiqXAb6ejL2ISwWcvUr49napuPPVrejJkAbj27z1oGSjmzYvoUuN4tP8Tb2VwD6L4B_Q99EOAs0y4VownW1BE3Ku_rKUgGAOa7OKZKtzOgKrtWqSc9oQ9h0DuiIkmKhn5I_PczHwigZ-ytb3OQ" --ssl-no-revoke -d {}
+curl
+-X DELETE "https://api.aspose.cloud/v3.0/cad/storage/file/sample.dxf" 
+-H "Content-Type:application/json" 
+-H "Authorization: Bearer <jwt token>"
 
 ```
 
