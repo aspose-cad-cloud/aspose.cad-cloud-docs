@@ -41,10 +41,10 @@ curl -v "https://api.aspose.cloud/connect/token" \
 
 // cURL example to rotate and flip existing image
 
-curl -v "https://api.aspose.cloud/v1.1/cad/910609.dxf/rotateflip?format=pdf&method=Rotate180FlipNone" \
+curl -v "https://api.aspose.cloud/v3.0/cad/910609.dxf/rotateflip?outputFormat=pdf&rotateFlipType=Rotate180FlipNone" \
 -X GET \
 -H "Content-Type: application/json" \
--H "Accept: multipart/form-data" \
+-H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
 -o 910609.pdf
 
@@ -89,13 +89,12 @@ curl -v "https://api.aspose.cloud/connect/token" \
 
 // cURL example to rotate and flip existing image and get it from response
 
-curl -v "https://api.aspose.cloud/v1.1/cad/rotateflip?format=pdf&method=Rotate180FlipNone" \
+curl -v "https://api.aspose.cloud/v3.0/cad/rotateflip?outputFormat=pdf&rotateFlipType=Rotate180FlipNone" \
 -X POST \
--T 910609.dxf \
 -H "Content-Type: multipart/form-data" \
--H "Accept: multipart/form-data" \
+-H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
--o 910609.pdf
+-d {"drawingData":{}}
 
 ```
 

@@ -8,8 +8,8 @@ weight: 40
 # **Introduction**
 This article explains how to convert CAD drawing/image to another format. You can convert CAD Drawings to Portable Document Format (PDF). Aspose.CAD provides the following two APIs to perform the said task:
 
-1. [GET /cad/{name}/saveAs](https://apireference.aspose.cloud/cad/#!/SaveAs/GetImageSaveAs)
-1. [POST /cad/saveAs](https://apireference.aspose.cloud/cad/#!/SaveAs/PostImageSaveAs)
+1. [GET /cad/{name}/saveAs](https://apireference.aspose.cloud/cad/#/SaveAs/GetDrawingSaveAs)
+1. [POST /cad/saveAs](https://apireference.aspose.cloud/cad/#/SaveAs/PostDrawingSaveAs)
 ## **Resource URI**
 [Aspose.CAD Cloud APIs Swagger UI](https://apireference.aspose.cloud/cad/) lets you call these APIs directly from the browser. The description of the APIs and their parameters are also given there.
 ## **cURL Example**
@@ -34,10 +34,10 @@ curl -v "https://api.aspose.cloud/connect/token" \
 
 // cURL example to export Drawing to another format
 
-curl -v "https://api.aspose.cloud/v1.1/cad/910609.dxf/saveAs?format=pdf" \
+curl -v "https://api.aspose.cloud/v3.0/cad/910609.dxf/saveAs/pdf" \
 -X GET \
 -H "Content-Type: application/json" \
--H "Accept: multipart/form-data" \
+-H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
 -o 910609.pdf
 
@@ -82,12 +82,12 @@ curl -v "https://api.aspose.cloud/connect/token" \
 
 // cURL example to export Drawing to another format. Image is passed as request body
 
-curl -v "https://api.aspose.cloud/v1.1/cad/saveAs?format=pdf" \
+curl -v "https://api.aspose.cloud/v3.0/cad/saveAs/pdf" \
 -X POST \
--T 910609.dxf \
 -H "Content-Type: multipart/form-data" \
--H "Accept: multipart/form-data" \
+-H "Accept: application/json" \
 -H "Authorization: Bearer <jwt token>" \
+-d {"drawingData":{}}
 -o 910609.pdf
 
 ```

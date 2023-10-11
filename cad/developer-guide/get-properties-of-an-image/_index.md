@@ -32,7 +32,7 @@ curl -v "https://api.aspose.cloud/connect/token" \
 
 // cURL example to get properties of an image
 
-curl -v "https://api.aspose.cloud/v1.1/cad/910609.dxf/properties" \
+curl -v "https://api.aspose.cloud/v3.0/cad/910609.dxf/properties" \
 -X GET \
 -H "Content-Type: application/json" \
 -H "Accept: application/json" \
