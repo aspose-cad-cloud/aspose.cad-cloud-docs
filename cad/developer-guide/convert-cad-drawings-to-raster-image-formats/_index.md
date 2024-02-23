@@ -112,11 +112,11 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 ## **SDK Examples**
 **Option 1: Export existing drawing to another format**
 
-{{< tabs tabTotal="3" tabID="7" tabName1="C#" tabName2="Java" tabName3="PHP" >}}
+{{< tabs tabTotal="3" tabID="7" tabName1="C#" tabName2="Java" tabName3="PHP" tabName4="Python">}}
 
 {{< tab tabNum="1" >}}
 
-{{< gist "aspose-cloud" "c8bd6d4c37d5c3f13814621654f144a2" "Examples-.NET-GetImageSaveAs.cs" >}}
+{{< gist "aspose-cad-gists" "08d6d4c55fe96b77e1e9c57a2f36d6ba" "Examples-.NET-GetImageSaveAs.cs" >}}
 
 {{< /tab >}}
 
@@ -132,21 +132,33 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< /tab >}}
 
+{{< tab tabNum="4" >}}
+
+{{< gist "aspose-cad-gists" "7fd0ee4ef54697f442abdcbb41abbe10" "CAD-to-PDF-Result-in-Storage.py" >}}
+
+{{< /tab >}}
+
 {{< /tabs >}}
 
 **Option 2: Export existing images to another format. Image is passed as a request body**
 
-{{< tabs tabTotal="2" tabID="8" tabName1="C#" tabName2="PHP" >}}
+{{< tabs tabTotal="3" tabID="8" tabName1="C#" tabName2="PHP" tabName3="Python" >}}
 
 {{< tab tabNum="1" >}}
 
-{{< gist "aspose-cloud" "c8bd6d4c37d5c3f13814621654f144a2" "Examples-.NET-PostImageSaveAs.cs" >}}
+{{< gist "aspose-cad-gists" "08d6d4c55fe96b77e1e9c57a2f36d6ba" "Examples-.NET-PostImageSaveAs.cs" >}}
 
 {{< /tab >}}
 
 {{< tab tabNum="2" >}}
 
 {{< gist "aspose-cloud" "771038f7ed5885cfde27c52a9fa2de33" "Examples-CAD-PHP-Render-CAD-to-Image-Result-in-Response.php" >}}
+
+{{< /tab >}}
+
+{{< tab tabNum="3" >}}
+
+{{< gist "aspose-cad-gists" "7fd0ee4ef54697f442abdcbb41abbe10" "CAD-to-PDF-Result-in-Response.py" >}}
 
 {{< /tab >}}
 
