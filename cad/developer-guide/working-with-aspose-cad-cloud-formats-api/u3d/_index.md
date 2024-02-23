@@ -44,6 +44,17 @@ curl -v "https://api.aspose.cloud/v3.0/cad/u3d" \
 -F "drawingData=file.dxf" \
 -o result.u3d
 
+// cURL example to export an existing drawing to U3D format with export settings specified
+
+curl -v "https://api.aspose.cloud/v3.0/cad/u3d" \
+-X POST \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-H "Authorization: Bearer <jwt token>" \
+-d "options=U3D options passed as a JSON" \
+-o result.u3d
+
+Export an existing drawing to
 ```
 
 {{< /tab >}}

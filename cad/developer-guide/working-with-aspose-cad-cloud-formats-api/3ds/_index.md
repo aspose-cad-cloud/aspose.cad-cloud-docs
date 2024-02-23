@@ -44,6 +44,17 @@ curl -v "https://api.aspose.cloud/v3.0/cad/3ds" \
 -F "drawingData=file.dxf" \
 -o result.3ds
 
+// cURL example to export an existing drawing to 3DS format with export settings specified
+
+curl -v "https://api.aspose.cloud/v3.0/cad/3ds" \
+-X POST \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-H "Authorization: Bearer <jwt token>" \
+-d "options=3DS options passed as a JSON" \
+-o result.3ds
+
+Export an existing drawing to
 ```
 
 {{< /tab >}}

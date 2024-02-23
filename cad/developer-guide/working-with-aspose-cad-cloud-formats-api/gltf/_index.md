@@ -44,6 +44,17 @@ curl -v "https://api.aspose.cloud/v3.0/cad/gltf" \
 -F "drawingData=file.dxf" \
 -o result.zip
 
+// cURL example to export an existing drawing to GLTF format with export settings specified
+
+curl -v "https://api.aspose.cloud/v3.0/cad/gltf" \
+-X POST \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-H "Authorization: Bearer <jwt token>" \
+-d "options=GLTF options passed as a JSON" \
+-o result.zip
+
+Export an existing drawing to
 ```
 
 {{< /tab >}}

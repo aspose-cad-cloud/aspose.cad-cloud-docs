@@ -44,6 +44,17 @@ curl -v "https://api.aspose.cloud/v3.0/cad/glb" \
 -F "drawingData=file.dxf" \
 -o result.glb
 
+// cURL example to export an existing drawing to GLB format with export settings specified
+
+curl -v "https://api.aspose.cloud/v3.0/cad/glb" \
+-X POST \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-H "Authorization: Bearer <jwt token>" \
+-d "options=GLB options passed as a JSON" \
+-o result.glb
+
+Export an existing drawing to
 ```
 
 {{< /tab >}}

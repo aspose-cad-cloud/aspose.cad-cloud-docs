@@ -44,6 +44,17 @@ curl -v "https://api.aspose.cloud/v3.0/cad/dwf" \
 -F "drawingData=file.dxf" \
 -o result.dwf
 
+// cURL example to export an existing drawing to DWF format with export settings specified
+
+curl -v "https://api.aspose.cloud/v3.0/cad/dwf" \
+-X POST \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-H "Authorization: Bearer <jwt token>" \
+-d "options=DWF options passed as a JSON" \
+-o result.dwf
+
+Export an existing drawing to
 ```
 
 {{< /tab >}}

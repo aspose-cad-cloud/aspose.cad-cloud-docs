@@ -44,6 +44,17 @@ curl -v "https://api.aspose.cloud/v3.0/cad/stp" \
 -F "drawingData=file.dxf" \
 -o result.stp
 
+// cURL example to export an existing drawing to STP format with export settings specified
+
+curl -v "https://api.aspose.cloud/v3.0/cad/stp" \
+-X POST \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-H "Authorization: Bearer <jwt token>" \
+-d "options=STP options passed as a JSON" \
+-o result.stp
+
+Export an existing drawing to
 ```
 
 {{< /tab >}}

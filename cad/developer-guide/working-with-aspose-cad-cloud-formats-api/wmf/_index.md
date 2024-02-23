@@ -44,6 +44,17 @@ curl -v "https://api.aspose.cloud/v3.0/cad/wmf" \
 -F "drawingData=file.dxf" \
 -o result.wmf
 
+// cURL example to export an existing drawing to WMF format with export settings specified
+
+curl -v "https://api.aspose.cloud/v3.0/cad/wmf" \
+-X POST \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-H "Authorization: Bearer <jwt token>" \
+-d "options=WMF options passed as a JSON" \
+-o result.wmf
+
+Export an existing drawing to
 ```
 
 {{< /tab >}}

@@ -44,6 +44,17 @@ curl -v "https://api.aspose.cloud/v3.0/cad/jpeg2000" \
 -F "drawingData=file.dxf" \
 -o result.jpeg2000
 
+// cURL example to export an existing drawing to JPEG2000 format with export settings specified
+
+curl -v "https://api.aspose.cloud/v3.0/cad/jpeg2000" \
+-X POST \
+-H "Content-Type: application/json" \
+-H "Accept: application/json" \
+-H "Authorization: Bearer <jwt token>" \
+-d "options=JPEG2000 options passed as a JSON" \
+-o result.jpeg2000
+
+Export an existing drawing to
 ```
 
 {{< /tab >}}
