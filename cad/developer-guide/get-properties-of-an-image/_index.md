@@ -80,7 +80,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="1" >}}
 
-{{< gist "aspose-cloud" "c8bd6d4c37d5c3f13814621654f144a2" "Examples-.NET-GetImageProperties.cs" >}}
+{{< gist "aspose-cad-gists" "08d6d4c55fe96b77e1e9c57a2f36d6ba" "Examples-.NET-GetImageProperties.cs" >}}
 
 {{< /tab >}}
 
@@ -98,7 +98,7 @@ Using an SDK (API client) is the quickest way for a developer to speed up the de
 
 {{< tab tabNum="4" >}}
 
-{{< gist "aspose-cloud" "6c0182692bf71c98fc3266e1d77490c3" "Get-CAD-Properties.py" >}}
+{{< gist "aspose-cad-gists" "7fd0ee4ef54697f442abdcbb41abbe10" "Get-CAD-Properties.py" >}}
 
 {{< /tab >}}
 
